@@ -11,14 +11,16 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="307dp"
-        android:layout_height="351dp"
+        android:layout_width="274dp"
+        android:layout_height="100dp"
         android:layout_marginBottom="150dp"
-        android:src="@drawable/stylish_logo_transparent"
+        android:src="@drawable/stylish_logo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.363" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

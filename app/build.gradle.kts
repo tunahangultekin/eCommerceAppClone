@@ -73,4 +73,9 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.3")
 
 
+
+    //Viewpager2
+    implementation ("androidx.viewpager2:viewpager2:1.1.0")
+
+
 }

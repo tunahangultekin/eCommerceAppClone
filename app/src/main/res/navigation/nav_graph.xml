@@ -9,5 +9,25 @@
         android:id="@+id/splashScreen"
         android:name="com.example.ecommerceapp.SplashScreen"
         android:label="fragment_splash_screen"
-        tools:layout="@layout/fragment_splash_screen" />
+        tools:layout="@layout/fragment_splash_screen" >
+
+        <action
+            android:id="@+id/action_splashScreen_to_onboardingPage"
+            app:destination="@id/onboardingPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/onboardingPage"
+        android:name="com.example.ecommerceapp.OnboardingPage"
+        android:label="fragment_onboarding_page"
+        tools:layout="@layout/fragment_onboarding_page" >
+        <action
+            android:id="@+id/action_onboardingPage_to_signUp"
+            app:destination="@id/signUp" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUp"
+        android:name="com.example.ecommerceapp.SignUp"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" />
+
 </navigation>
