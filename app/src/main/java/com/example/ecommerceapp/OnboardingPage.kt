@@ -61,6 +61,6 @@ class OnboardingPage : Fragment() {
         sharedPref.edit().putBoolean("isFirstLaunch", false).apply()
 
         // Navigate to the main screen or home page
-       findNavController().navigate(R.id.action_onboardingPage_to_signUp)
+       findNavController().navigate(R.id.action_onboardingPage_to_baseFragment)
     }
 }

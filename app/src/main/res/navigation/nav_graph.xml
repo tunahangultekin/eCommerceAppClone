@@ -21,13 +21,17 @@
         android:label="fragment_onboarding_page"
         tools:layout="@layout/fragment_onboarding_page" >
         <action
-            android:id="@+id/action_onboardingPage_to_signUp"
-            app:destination="@id/signUp" />
+            android:id="@+id/action_onboardingPage_to_baseFragment"
+            app:destination="@id/baseFragment" />
     </fragment>
     <fragment
         android:id="@+id/signUp"
         android:name="com.example.ecommerceapp.SignUp"
         android:label="fragment_sign_up"
         tools:layout="@layout/fragment_sign_up" />
+    <fragment
+        android:id="@+id/baseFragment"
+        android:name="com.example.ecommerceapp.BaseFragment"
+        android:label="BaseFragment" />
 
 </navigation>

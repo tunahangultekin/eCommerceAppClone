@@ -37,7 +37,7 @@ class SplashScreen : Fragment() {
                 findNavController().navigate(R.id.action_splashScreen_to_onboardingPage)
             } else {
                 // Navigate to another screen, e.g., the home screen
-                findNavController().navigate(R.id.action_onboardingPage_to_signUp)
+                findNavController().navigate(R.id.action_onboardingPage_to_baseFragment)
             }
         }, 3000) // Wait for 3 seconds
     }
